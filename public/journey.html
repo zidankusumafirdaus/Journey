@@ -7,82 +7,88 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="min-h-screen overflow-auto">
-    <main class="flex flex-col min-h-screen bg-[#222222]">
-        <!-- Image Section -->
-        <div class="relative w-full flex-grow">
-            <img 
-                src="./img/Journey-Background.jpg"
-                alt="Group photo" 
-                class="w-full h-full object-cover grayscale"
-            >
-        </div>
+    <main>
+        <!-- Introduce -->
+        <section class="flex flex-col min-h-screen bg-[#222222]">
+            <div class="relative w-full flex-grow">
+                <img 
+                    src="./img/Journey-Background.jpg"
+                    alt="Group photo" 
+                    class="w-full h-full object-cover grayscale"
+                >
+            </div>
+    
+            <div class="md:p-20 m-5 text-[#CCCCCC]">
+                <h1 class="md:text-5xl mb-4 font-bold">
+                    Hi! I'm Zidan Kusuma
+                </h1>
+                <p class="text-lg md:text-3xl text-[#CCCCCC] leading-relaxed">
+                    I'm an Informatics student at Universitas Muhammadiyah Sidoarjo. As an informatics student, I'm currently studying web 
+                    development. Aside from that, I'm interested in books that increase my knowledge, so I'd really appreciate it if anyone 
+                    could give me some recommendations.
+                </p>
+            </div>
+        </section>
 
-        <!-- Text Content Section -->
-        <div class="p-6 md:p-8 m-10 text-[#CCCCCC]">
-            <h1 class="text-3xl md:text-5xl mb-4 font-bold">
-                Hi! I'm Zidan Kusuma
-            </h1>
-            <p class="text-lg md:text-3xl text-[#CCCCCC] leading-relaxed">
-                I'm an Informatics student at Universitas Muhammadiyah Sidoarjo. As an informatics student, I'm currently studying web 
-                development. Aside from that, I'm interested in books that increase my knowledge, so I'd really appreciate it if anyone 
-                could give me some recommendations.
-            </p>
-        </div>
+        <section class="back bg-[#202020] px-24 pt-28">
+            <header class="text-center mb-16 mx-auto bg-[#202020]">
+                <h1 class="md:text-5xl mb-4 font-bold text-[#CCCCCC]">BIT-B03</h1>
+                <h2 class="md:text-4xl mb-14 text-[#CCCCCC]">Bussiness Incubation Team Batch 03</h2>
+                <p class="text-lg md:text-3xl px-1 text-[#CCCCCC] leading-relaxed">
+                    A community what was created by Zidan & Ramadhan for the aim of learning. After that, we get a supervising lecturer named Irwan Alnarus Kausar. He created BIT community with 12 students in it
+                </p>
+            </header>
+        
+            <!-- Cards Section -->
+            <div class="card-container mb-12 bg-[#202020]">
+                <!-- Card 1 -->
+                <div class="card rounded-lg overflow-hidden flex flex-col">
+                    <a href="https://knightlab.northwestern.edu/">
+                        <div class="h-64 overflow-hidden">
+                            <img src="./img/planning.png" alt="Planning" class="p-3 w-full h-full object-cover grayscale">
+                        </div>
+                        <div class="p-3 flex flex-col flex-grow text-center">
+                            <h3 class="md:text-4xl mb-4 font-bold text-[#CCCCCC]">Planning</h3>
+                            <p class="text-lg md:text-1xl px-1 text-[#CCCCCC]">June 11, 2024</p>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Card 2 -->
+                <div class="card rounded-lg overflow-hidden flex flex-col">
+                    <a href="">
+                        <div class="h-64 overflow-hidden">
+                            <img src="./img/trynerror.png" alt="Students" class="p-3 w-full h-full object-cover grayscale">
+                        </div>
+                        <div class="p-3 flex flex-col flex-grow text-center">
+                            <h3 class="md:text-4xl mb-4 font-bold text-[#CCCCCC]">Try Login Register Using Flask</h3>
+                            <p class="text-lg md:text-1xl px-1 text-[#CCCCCC]">June 26, 2024</p>
+                        </div>
+                    </a>
+                </div>
+        
+                <!-- Card 3 -->
+                <div class="card rounded-lg overflow-hidden flex flex-col">
+                    <a href="">
+                        <div class="h-64 overflow-hidden">
+                            <img src="./img/monolith.png" alt="Student studying monolith architecture" class="p-3 w-full h-full object-cover grayscale">
+                        </div>
+                        <div class="p-3 flex flex-col flex-grow text-center">
+                            <h3 class="md:text-4xl mb-4 font-bold text-[#CCCCCC]">Study Monolith</h3>
+                            <p class="text-lg md:text-1xl px-1 text-[#CCCCCC]">September 21, 2024</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        
+            <!-- View More Button -->
+            <div class="text-center bg-[#202020] pt-12 pb-28">
+                <button class="view-more-btn border border-gray-500 text-gray-300 px-8 py-3 rounded-md uppercase tracking-wider font-medium">
+                    VIEW MORE
+                </button>
+            </div>
+        </section>
     </main>
 
-    <div class="back bg-[#121212]">
-
-        <header class="text-center mb-16 max-w-4xl mx-auto bg-[#121212]">
-            <h1 class="text-4xl font-bold mb-2">BIT-B03</h1>
-            <h2 class="text-2xl mb-8">Bussiness Incubation Team Batch 03</h2>
-            <p class="text-lg leading-relaxed">
-                A community what was created by 3 students for the aim of learning. After that we get a supervising lecturer named Irwan Alnarus Kausar. He created BIT community with 12 students in it
-            </p>
-        </header>
-    
-        <!-- Cards Section -->
-        <div class="card-container mb-12 bg-[#121212]">
-            <!-- Card 1 -->
-            <div class="card rounded-lg overflow-hidden flex flex-col">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled_page-0002.jpg-MMJ7BsjroGpl80FfAiiJLO6PB0w9Km.jpeg" alt="Planning session with students" class="w-full h-full object-cover grayscale">
-                </div>
-                <div class="p-6 flex flex-col flex-grow text-center">
-                    <h3 class="text-2xl font-bold mb-2">Planning</h3>
-                    <p class="mt-auto">June 11, 2024</p>
-                </div>
-            </div>
-    
-            <!-- Card 2 -->
-            <div class="card rounded-lg overflow-hidden flex flex-col">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled_page-0002.jpg-MMJ7BsjroGpl80FfAiiJLO6PB0w9Km.jpeg" alt="Students working on login register system" class="w-full h-full object-cover grayscale">
-                </div>
-                <div class="p-6 flex flex-col flex-grow text-center">
-                    <h3 class="text-2xl font-bold mb-2">Try Login Register</h3>
-                    <h3 class="text-2xl font-bold mb-2">Using Flask</h3>
-                    <p class="mt-auto">June 26, 2024</p>
-                </div>
-            </div>
-    
-            <!-- Card 3 -->
-            <div class="card rounded-lg overflow-hidden flex flex-col">
-                <div class="h-64 overflow-hidden">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled_page-0002.jpg-MMJ7BsjroGpl80FfAiiJLO6PB0w9Km.jpeg" alt="Student studying monolith architecture" class="w-full h-full object-cover grayscale">
-                </div>
-                <div class="p-6 flex flex-col flex-grow text-center">
-                    <h3 class="text-2xl font-bold mb-2">Study Monolith</h3>
-                    <p class="mt-auto">September 21, 2024</p>
-                </div>
-            </div>
-        </div>
-    
-        <!-- View More Button -->
-        <div class="text-center bg-[#121212]">
-            <button class="view-more-btn border border-gray-500 text-gray-300 px-8 py-3 rounded-md uppercase tracking-wider font-medium">
-                VIEW MORE
-            </button>
-        </div>
-    </div>
     <script src="./js/script.js"></script>
 </html>
