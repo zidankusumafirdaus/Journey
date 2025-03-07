@@ -24,6 +24,11 @@ body {
     background-color: rgba(30, 30, 30, 0.7);
     transition: transform 0.3s ease;
 }
+.card2 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(34, 34, 34, 0.7);
+    transition: transform 0.3s ease;
+}
 .card:hover {
     transform: translateY(-5px);
 }
