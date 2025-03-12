@@ -34,7 +34,8 @@ body {
     transition: transform 0.3s ease;
 }
 .card2:hover{
-        transform: translateY(-5px);
+    transform: translateY(-5px);
+    border: 1px solid rgb(140, 96, 0)
 }
 .view-more-btn {
     transition: all 0.3s ease;
