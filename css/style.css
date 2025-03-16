@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scrollbar-width: none;
+}
+
+/* BIT Project */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(30, 30, 30, 0.7);
+    transition: transform 0.3s ease;
+    padding-bottom: 1%;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card2 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(34, 34, 34, 0.7);
+    transition: transform 0.3s ease;
+}
+.card2:hover{
+    transform: translateY(-5px);
+    border: 1px solid rgb(140, 96, 0)
+}
+.view-more-btn {
+    transition: all 0.3s ease;
+}
+.view-more-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.learning-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.card-learning {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(30, 30, 30, 0.7);
+    transition: transform 0.3s ease;
+    padding-bottom: 2rem;
+}
+
+.card-learning:hover {
+    border: 1px solid rgb(140, 96, 0)
+}
+
+.card2-learning {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(34, 34, 34, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.card2-learning-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 2000px;
+    margin: 0 auto;
+}
