@@ -55,7 +55,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(30, 30, 30, 0.7);
     transition: transform 0.3s ease;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+}
+
+.card-learning:hover {
+    border: 1px solid rgb(140, 96, 0)
 }
 
 .card2-learning {
