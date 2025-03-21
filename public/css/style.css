@@ -110,7 +110,7 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .card {
         flex-direction: column; /* Mengubah arah flex menjadi kolom pada layar kecil */
     }
