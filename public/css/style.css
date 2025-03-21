@@ -135,6 +135,11 @@ body {
         display: none;
     }
 
+    .padding-timeline {
+        margin: 0;
+        padding: 2rem;
+    }
+
     .footer-icon {
         padding-top: 0;
     }
