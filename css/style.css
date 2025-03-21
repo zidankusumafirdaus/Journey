@@ -12,6 +12,10 @@ body {
 }
 
 /* BIT Project */
+.tittle {
+    margin-bottom: 1rem;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -48,7 +52,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    max-width: 1400px;
+    max-width: 2100px;
     margin: 0 auto;
 }
 .card-learning {
@@ -74,4 +78,78 @@ body {
     gap: 1.5rem;
     max-width: 2000px;
     margin: 0 auto;
+}
+
+/* style.css */
+
+@media (max-width: 900px) {
+    .card {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom pada layar kecil */
+    }
+
+    .px-24 {
+        padding-left: 1rem; /* Mengurangi padding horizontal */
+        padding-right: 1rem;
+    }
+
+    .text-lg {
+        font-size: 1rem; /* Mengurangi ukuran font untuk teks besar */
+    }
+
+    .md\:text-5xl {
+        font-size: 1.5rem; /* Ukuran font untuk layar besar */
+    }
+
+    .md\:text-4xl {
+        font-size: 1.2rem; /* Ukuran font untuk layar besar */
+    }
+
+    .image-journey {
+        max-width: 100%;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom pada layar kecil */
+    }
+
+    .description-index {
+        padding-bottom: 1.8rem;
+    }
+
+    .tittle-index {
+        padding-top: 1rem;
+    }
+
+    .tittle {
+        margin-bottom: 0;
+    }
+
+    .bit-button {
+        padding-top: 2rem;
+    }
+
+    .text-phone {
+        display: none;
+    }
+
+    .padding-timeline {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .larning-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .learning-container {
+        padding: 0 1.2rem;
+    }
+
+    .footer-icon {
+        padding-top: 0;
+    }
 }
