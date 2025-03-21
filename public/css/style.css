@@ -52,7 +52,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    max-width: 1400px;
+    max-width: 2100px;
     margin: 0 auto;
 }
 .card-learning {
@@ -138,6 +138,15 @@ body {
     .padding-timeline {
         margin: 0;
         padding: 2rem;
+    }
+
+    .larning-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .learning-container {
+        padding: 0 1.2rem;
     }
 
     .footer-icon {
